@@ -81,7 +81,14 @@ header img {
 p {
     margin: var(--gutter);
 }
-  
+
+.shrink-img {
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    width: 400px;
+}
+
 footer {
     position: fixed;
     width: 100%;
