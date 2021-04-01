@@ -14,7 +14,7 @@ export function getComputerChampion() {
 }
 
 //export function staleMate()){
-//const value = 'rock' || 'paper || 'scissors';
+//const value = 'Rock' || 'Paper || 'Scissors';
 //if user.value === computer.value
 //return 'Stale Mate';}
 
@@ -23,38 +23,39 @@ export function whoIsTheVictor(user, computer) {
     //let user = //user input
     //let computer = computerChampion
 
-    if (user === 'rock' && computer === 'rock') {
-        return 'Your Might is Equal'
+    if (user === 'Rock' && computer === 'Rock') {
+        return 'Your Might is Equal';
 
-    };
-    if (user === 'paper' && computer === 'paper') {
-        return 'Your Might is Equal'
+    }
+    if (user === 'Paper' && computer === 'Paper') {
+        return 'Your Might is Equal';
 
-    };
-    if (user === 'scissors' && computer === 'scissors') {
-        return 'Your Might is Equal'
+    }
+    if (user === 'Scissors' && computer === 'Scissors') {
+        return 'Your Might is Equal';
 
-    };
-    if (user === 'rock' && computer === 'scissors') {
-        return 'Your Have Vanquished Your Foe'
+    }
+    if (user === 'Rock' && computer === 'Scissors') {
+        return 'Your Have Vanquished Your Foe';
 
-    };
-    if (user === 'paper' && computer === 'rock') {
-        return 'Your Have Vanquished Your Foe'
+    }
+    if (user === 'Paper' && computer === 'Rock') {
+        return 'Your Have Vanquished Your Foe';
 
-    };
-    if (user === 'scissors' && computer === 'paper') {
-        return 'Your Have Vanquished Your Foe'
+    }
+    if (user === 'Scissors' && computer === 'Paper') {
+        return 'Your Have Vanquished Your Foe';
 
-    };
-    if (user === 'scissors' && computer === 'rock') {
-        return 'Your Family Mourns You'
+    }
+    if (user === 'Scissors' && computer === 'Rock') {
+        return 'Your Family Mourns You';
 
-    };
-    if (user === 'paper' && computer === 'scissors') {
-        return 'Your Family Mourns You'
+    }
+    if (user === 'Paper' && computer === 'Scissors') {
+        return 'Your Family Mourns You';
 
-    };
-    if (user === 'rock' && computer === 'paper') {
-        return 'Your Family Mourns You'
-    };
+    }
+    if (user === 'Rock' && computer === 'Paper') {
+        return 'Your Family Mourns You';
+    }
+}

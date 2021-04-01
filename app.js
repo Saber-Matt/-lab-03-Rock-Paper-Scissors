@@ -15,12 +15,12 @@ const Paper = document.querySelector('#Paper');
 const Scissors = document.querySelector('#Scissors');
 const successText = document.querySelector('#Success');
 const defeatText = document.querySelector('#Defeat');
-const drawText = document.querySelector('#draws');
+const drawText = document.querySelector('#equalMight');
 const totalAnswers = document.querySelector('#total');
 
 let Success = 0;
 let Defeat = 0;
-let draws = 0;
+let equalMight = 0;
 let total = 0;
 
 battleButton.addEventListener('click', () => {
@@ -28,8 +28,8 @@ battleButton.addEventListener('click', () => {
     const computer = getComputerChampion();
     const victor = whoIsTheVictor(player, computer);
     if (victor === 'Your Might is Equal') {
-        draws++;
-        drawText.textContent = `${draws} Your Might is Equal`;
+        equalMight++;
+        drawText.textContent = `${equalMight} Your Might is Equal`;
         total++;
         totalAnswers.textContent = `${total} total`;
     }
