@@ -1,16 +1,15 @@
 export function getComputerChampion() {
-    let randomNumber = Math.ceil(Math.random()); {
-        let computerChampion;
-        if (randomNumber >= 0 && randomNumber <= 0.325)
-            computerChampion === 'Rock';
+    let randomNumber = Math.random();
+    //let computerChampion;
+    if (randomNumber >= 0 && randomNumber <= 0.325)
+        return 'Rock';
 
-        else if (randomNumber >= 0.3251 && randomNumber <= 0.65)
-            computerChampion === 'Paper';
+    else if (randomNumber >= 0.3251 && randomNumber <= 0.65)
+        return 'Paper';
 
-        else computerChampion === 'Scissors';
+    else return 'Scissors';
 
-    }
-    return computerChampion;
+    //return computerChampion;
 }
 
 //export function staleMate()){
